@@ -1,7 +1,7 @@
 # TwitterBotBitcoin
 Bot simples que tweeta caso o Bitcoin altere o valor.
 
-Utilizado as bibliotecas:
+Utilizado as bibliotecas:\
    pycoingecko, para solicitar o valor da moeda, \
    threading, para dar um intervalo de tempo na execução da função e \
    tweepy para que a mensagem seja postada no twitter.\
