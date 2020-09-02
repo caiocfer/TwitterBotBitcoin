@@ -11,10 +11,10 @@ Used the following librarys:
    tweepy to tweet our message.\
    e tkinter for GUI
 It's simple to use, just create and dev account on twitter, and fill the fields with the requested informations:\
-  API key: = ''\
-  API key secret: = ''\
-  Access Token: = ''\
-  Access Token Secret: = ''\
+  API key:\
+  API key secret:\
+  Access Token:\
+  Access Token Secret:''
 _________________________________________________________
 Bot simples que tweeta caso o Bitcoin altere o valor.
 
@@ -24,8 +24,8 @@ Utilizado as bibliotecas:\
    tweepy para que a mensagem seja postada no twitter.\
    e tkinter para a interface gráfica
 Para usar é simples, após criar um conta de desenvolvedor no Twitter, preencha os campo com as informações solicitadas:\
-  API key: = ''\
-  API key secret: = ''\
-  Access Token: = ''\
-  Access Token Secret: = ''
+  API key:\
+  API key secret:\
+  Access Token:\
+  Access Token Secret:
 _________________________________________________________
