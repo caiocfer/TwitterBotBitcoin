@@ -14,7 +14,7 @@ It's simple to use, just create and dev account on twitter, and fill the fields 
   API key:\
   API key secret:\
   Access Token:\
-  Access Token Secret:''
+  Access Token Secret:
 _________________________________________________________
 Bot simples que tweeta caso o Bitcoin altere o valor.
 
