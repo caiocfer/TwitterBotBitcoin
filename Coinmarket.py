@@ -4,24 +4,26 @@ import threading
 from pycoingecko import CoinGeckoAPI
 
 win = tk.Tk()
+win.geometry("400x120")
+win.title("TwitterBot")
 
-consumer_key_label = tk.Label(win, text="consumer_key")
-consumer_key = tk.Entry(win)
+consumer_key_label = tk.Label(win, text="API key: ")
+consumer_key = tk.Entry(win, width=40)
 consumer_key_label.grid(row=0)
 consumer_key.grid(row=0,column=1)
 
-consumer_secret_label = tk.Label(win, text="consumer_secret")
-consumer_secret = tk.Entry(win)
+consumer_secret_label = tk.Label(win, text="API key secret: ")
+consumer_secret = tk.Entry(win, width=40)
 consumer_secret_label.grid(row=1)
 consumer_secret.grid(row=1,column=1)
 
-access_token_label = tk.Label(win, text="access_token ")
-access_token = tk.Entry(win)
+access_token_label = tk.Label(win, text="Access Token:  ")
+access_token = tk.Entry(win, width=40)
 access_token_label.grid(row=2)
 access_token.grid(row=2,column=1)
 
-access_token_secret_label = tk.Label(win, text="access_token_secret")
-access_token_secret = tk.Entry(win)
+access_token_secret_label = tk.Label(win, text="Access Token Secret")
+access_token_secret = tk.Entry(win, width=40)
 access_token_secret_label.grid(row=3)
 access_token_secret.grid(row=3,column=1)
 
@@ -67,6 +69,6 @@ def update_coin():
         bitcoin_agora = cg.get_price(ids='bitcoin', vs_currencies='BRL')
 
 button_start = tk.Button(win, text="Calculate", command=startbot())
-button_start.grid(row=4,column=1)
+button_start.grid(row=4,column=0)
 
 win.mainloop()
