@@ -5,7 +5,7 @@ Preview: \
 ![](src/TwitterBotScreen.PNG)
 <img src="https://github.com/caiocfer/TwitterBotBitcoin/blob/master/TwitterBotScreen.PNG">
 
-Used the following librarys:
+Used the following librarys:\
    pycoingecko, to request the coin value, \
    threading, to give an time interval in the executation of the function \
    tweepy to tweet our message.\
