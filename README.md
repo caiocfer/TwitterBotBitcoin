@@ -10,7 +10,7 @@ Used the following librarys:\
    threading, to give an time interval in the executation of the function \
    tweepy to tweet our message.\
    e tkinter for GUI
-It's simple to use, just create and dev account on twitter, and fill the fields with the requested informations:\
+It's simple to use, just create an dev account on twitter, and fill the fields with the requested informations:\
   API key:\
   API key secret:\
   Access Token:\
